@@ -1,0 +1,26 @@
+/* 
+  Localizable.strings
+ HomeAssigment
+
+  Created by Cesar Brenes on 15/5/25.
+  
+*/
+
+"appError.noInternet" = "No internet connection.";
+"appError.server" = "Server error occurred.";
+"appError.unknown" = "Something went wrong.";
+
+"listPageView.title" = "Cats";
+"listPageView.placeholderLoading" = "Loading cats...";
+"listPageView.retryButtonTitle" = "Retry";
+
+"detailPageViewTitle" = "Detail";
+"detailPageViewFailed"  = "Invalid or failed to load image";
+"detailPageViewImageLoading" = "Loading...\nthis may take a moment.";
+
+
+"catUIModel.idField" = "ID:";
+"catUIModel.ownerField" = "Owner:";
+"catUIModel.createdAtField" = "Created at:";
+"catUIModel.updatedAtField" = "Updated at:";
+"catUIModel.tagsField"=  "Tags:";
