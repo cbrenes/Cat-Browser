@@ -20,13 +20,10 @@ This is a SwiftUI-based application built for the Revelo iOS take-home assignmen
 
 ## 📸 Preview
 
-You can find a sample video recording of the app in action in the same directory:
-
-```
+You can find a sample video recording of the app in action:
 
 [![Watch the video](https://img.youtube.com/vi/jaUi8OYszlo/0.jpg)](https://youtube.com/shorts/jaUi8OYszlo)
 
-```
 
 ---
 
