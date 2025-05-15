@@ -96,50 +96,6 @@ All tests use native XCTest and require no third-party tools.
 
 ---
 
-## 📂 Project Structure
-HomeAssigment
-├── DataSource
-│ └── CatsDataSource.swift
-├── Extensions
-│ └── String+Localized.swift
-├── Helpers
-│ ├── AppError.swift
-│ ├── CustomJSONDecoder.swift
-│ ├── Environment.swift
-│ └── LocalizedStrings.swift
-├── Mocks
-│ └── MockCatsDataSource.swift
-├── Models
-│ ├── Cat.swift
-│ └── UI
-│ └── CatUIModel.swift
-├── Resources
-│ ├── catData.json
-│ └── Localizable.strings
-├── Services
-│ ├── Local
-│ │ └── JsonCatService.swift
-│ └── Network
-│ └── APICatService.swift
-├── ViewModels
-│ └── ListPageViewModel.swift
-├── Views
-│ ├── Helpers
-│ │ └── LoadingPlaceholderView.swift
-│ ├── CatRowView.swift
-│ ├── DetailPageView.swift
-│ ├── HomeAssigmentApp.swift
-│ └── ListPageView.swift
-└── HomeAssigmentTests
-├── Models
-│ ├── CatTests.swift
-│ └── CatUIModelTests.swift
-├── Services
-│ └── JsonCatServiceTest.swift
-└── ViewModel
-└── ListPageViewModelTests.swift
----
-
 ## ⚡ Improvements (Future Work)
 
 * ⭐ Implement an image cache system to avoid re-downloading images unnecessarily (e.g., use `NSCache` or custom in-memory/disk cache).
